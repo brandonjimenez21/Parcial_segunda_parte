@@ -112,3 +112,38 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ------------------------------------------------------------------
+# Additional rules for this project (Unity + Blender workflow)
+# ------------------------------------------------------------------
+
+# Unity: crash reports, profiler/debug output and shader caches
+/[Cc]rash[Rr]eports/
+/[Pp]rofiler[Cc]aptures/
+/[Bb]uild[Rr]eports/
+.idea/
+.vscode/
+
+# Blender: numbered backups (.blend1, .blend2, ...), autosaves and temp files
+*.blend[0-9]
+*.blend[0-9][0-9]
+*.blend[0-9].meta
+*.blend@
+quit.blend
+*_autosave.blend
+blender_crash.txt
+__pycache__/
+*.py[cod]
+
+# GIMP / image editor temp files
+*.xcf~
+*.kra~
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
